@@ -1,0 +1,20 @@
+cd /Users/admin/GitHub/RL-coursework
+
+conda create -n rl-env python=3.10 -y
+
+conda activate rl-env
+
+conda install -c pytorch -c conda-forge pytorch torchvision torchaudio -y
+
+pip install "gymnasium[classic-control]"
+
+pip install gym==0.26.2
+
+pip install matplotlib
+
+pip install seaborn
+
+pip install scipy
+
+
+pip install PyOpenGL PyOpenGL_accelerate
